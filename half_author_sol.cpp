@@ -37,7 +37,7 @@ int main() {
 				if (a[i] > b[i] && a[i] > 0) {
 					// if it is found, then decrement the element
 					a[i]--;
-					// start a nested loop where in it avoids the current value of 'i'
+					// start a nested loop wherein it avoids the current value of 'i'
 					for (int j = 0; j < n; j++) {
 						if (j == i) {
 							// if 'j' is equal to 'i', then skip this index
