@@ -35,7 +35,7 @@ int main() {
 				// find the an element in 'a' wherein it is greater than 0 
 				// and greater than its corresponding element in array 'b'
 				if (a[i] > b[i] && a[i] > 0) {
-					// if it is found, then decrement th element
+					// if it is found, then decrement the element
 					a[i]--;
 					// start a nested loop where in it avoids the current value of 'i'
 					for (int j = 0; j < n; j++) {
